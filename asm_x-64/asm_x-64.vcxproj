@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2fb46002-9cfc-402a-9d90-80cafe909f11}</ProjectGuid>
-    <RootNamespace>asmlabolatories</RootNamespace>
+    <ProjectGuid>{a43e719d-4411-45fb-aef7-003ce9075ce9}</ProjectGuid>
+    <RootNamespace>asmx64</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>asm_x-86</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -125,10 +124,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <MASM Include="tasks.asm" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="main.c" />
+    <ClCompile Include="task.asm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
