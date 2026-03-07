@@ -64,9 +64,8 @@ The project demonstrates the critical importance of the **Calling Convention** a
 
 1. **Clone the repository and open the solution file (.sln) in Visual Studio 2022.open the solution file (.sln) in Visual Studio 2022.**
     ```bash
-   git clone https://github.com/Stereopapa/life-game-py.git
-   cd life-game-py
-
+   git clone https://github.com/Stereopapa/asm_labolatories.git
+   cd asm_labolatories
 2. Set the desired project (asm_x_86 or asm_x_64) as the Startup Project.
 
 3. Select the corresponding build architecture (x86 or x64).
